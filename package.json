@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "clean": " rm -rf dist"
+    "clean": " rm -rf dist",
+    "prettier": "prettier -w ./src"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +16,14 @@
     "@babel/preset-env": "^7.15.6",
     "autoprefixer": "^10.3.6",
     "babel-loader": "^8.2.2",
+    "bootstrap": "^5.1.1",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.3.0",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.3.0",
     "postcss": "^8.3.8",
     "postcss-loader": "^6.1.1",
+    "prettier": "^2.4.1",
     "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
     "webpack": "^5.55.0",
